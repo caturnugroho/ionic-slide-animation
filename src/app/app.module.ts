@@ -1,3 +1,4 @@
+import { AnimateItemSlidingDirective } from './../directives/animate-item-sliding/animate-item-sliding';
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
@@ -10,7 +11,8 @@ import { HomePage } from '../pages/home/home';
 @NgModule({
   declarations: [
     MyApp,
-    HomePage
+    HomePage,
+    AnimateItemSlidingDirective
   ],
   imports: [
     BrowserModule,
